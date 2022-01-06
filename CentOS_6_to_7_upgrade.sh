@@ -97,3 +97,5 @@ echo "rebooting the system"
 echo " "
 
 sleep 5
+reboot
+
