@@ -84,7 +84,7 @@ echo http://mirror.centos.org/centos/7/updates/x86_64/ >> /var/tmp/system-upgrad
 
 echo "Disable SELinux"
 
-
+sed -i s/^SELINUX=.*$/SELINUX=permissive/ /etc/sysconfig/selinux
 
 echo "Upgrading CentOS 6 to 7"
 echo " "
