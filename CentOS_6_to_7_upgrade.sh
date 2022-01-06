@@ -1,4 +1,6 @@
 #!/bin/bash
+yum install -y https://buildlogs.centos.org/centos/6/upg/x86_64/Packages/openscap-1.0.8-1.0.1.el6.centos.x86_64.rpm
+
 echo ""
 echo "Clearing Old Repositories"
 echo " "
@@ -58,8 +60,6 @@ echo "Installing the pre-upgrade assistant tool"
 echo " "
 
 sleep 1
-
-yum install -y https://buildlogs.centos.org/centos/6/upg/x86_64/Packages/openscap-1.0.8-1.0.1.el6.centos.x86_64.rpm
 
 yum install -y redhat-upgrade-tool preupgrade-assistant-*
 
