@@ -11,7 +11,7 @@ cat > /etc/yum.repos.d/CentOS-Base.repo << EOF
 name=CentOS-\$releasever - Base
 # mirrorlist=http://mirrorlist.centos.org/?release=\$releasever&arch=\$basearch&repo=os&infra=\$infra
 # baseurl=http://mirror.centos.org/centos/\$releasever/os/\$basearch/
-baseurl=https://vault.centos.org/centos/\$releasever/os/\$basearch/
+baseurl=https://vault.centos.org/7.0.1406/os/x86_64/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
@@ -20,7 +20,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-\$releasever - Updates
 # mirrorlist=http://mirrorlist.centos.org/?release=\$releasever&arch=\$basearch&repo=updates&infra=\$infra
 # baseurl=http://mirror.centos.org/centos/\$releasever/updates/\$basearch/
-baseurl=https://vault.centos.org/centos/\$releasever/updates/\$basearch/
+baseurl=https://vault.centos.org/7.0.1406/updates/x86_64/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
@@ -29,7 +29,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-\$releasever - Extras
 # mirrorlist=http://mirrorlist.centos.org/?release=\$releasever&arch=\$basearch&repo=extras&infra=\$infra
 # baseurl=http://mirror.centos.org/centos/\$releasever/extras/\$basearch/
-baseurl=https://vault.centos.org/centos/\$releasever/extras/\$basearch/
+baseurl=https://vault.centos.org/7.0.1406/extras/x86_64/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
